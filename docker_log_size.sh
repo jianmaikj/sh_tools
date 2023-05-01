@@ -2,7 +2,7 @@
 
 echo "======== docker containers logs file size ========"  
 
-logs=$(find /var/lib/docker/overlay2/ -name *-json.log)  
+logs=$(find /var/lib/docker/containers/ -name *-json.log)  
 
 for log in $logs  
         do  
